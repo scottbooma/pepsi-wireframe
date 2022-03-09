@@ -9,11 +9,13 @@ header {
     display: flex;
     align-items: center;
     background-color: rgb(12,104,191)
+
 }
 
 .logo {
     display: flex;
     align-items: center;
+    color: white; 
 }
 
 .sign-in { 
@@ -37,6 +39,7 @@ li + li {
 
 a {
     text-decoration: none;
+    color: white; 
 }
 
 .content-1 { 
