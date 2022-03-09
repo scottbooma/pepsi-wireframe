@@ -4,13 +4,35 @@ body {
     font-family: Nunito;
 }
 
-header {
+header { 
     display: flex;
-    
+    align-items: center;
 }
 
-header ul {
+.logo {
     display: flex;
-    list-style: none;
+    align-items: center;
+}
 
+.sign-in { 
+    float: right;
+}
+
+
+header nav ul {
+    list-style: none;
+    float: left;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+li + li {
+    padding-left: 20px;
+}
+
+
+a {
+    text-decoration: none;
 }
