@@ -53,6 +53,45 @@ a {
 .Community {
 color:white;}
 
-.join {
+.content-2 {
+    background-color: rgb(12,104,191);
+    color: white;
+    height: 650px;
+    margin-top: 0;
+    display: grid;
+}
 
+.features {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+h2 {
+    padding: 20px;
+    width: 50%;
+}
+
+.feature1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    padding: 20px;
+}
+
+.feature2 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    padding: 20px;
+}
+
+.feature3 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    padding: 20px;
+}
+
+.feature4 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    padding: 20px;
 }
