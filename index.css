@@ -8,8 +8,9 @@ body {
 header { 
     display: flex;
     align-items: center;
-    background-color: rgb(12,104,191)
-
+    justify-content: space-between;
+    background-color: rgb(12,104,191);
+    height: 55px;
 }
 
 .logo {
@@ -18,14 +19,31 @@ header {
     color: white; 
 }
 
-.sign-in { 
-    float: right;
+
+
+
+
+.sign-in button {
+    background-color: rgb(12,104,191);
+    border-color: white;
+    border-radius: 1.8em;
+    border-style: solid;
+    padding: 10px;
+    color: white;
+    font-family: Nunito;
+    cursor: pointer;
+}
+
+.sign-in button:hover {
+    background-color: white;
+    color: rgb(12,104,191);
 }
 
 
 header nav ul {
     list-style: none;
     float: left;
+    flex-flow: row nowrap;
 }
 
 header nav ul li {
@@ -102,4 +120,33 @@ h2 {
 
 .Join{
     margin-left: 400px;
+    background-color: white;
+    border-color:rgb(12,104,191);
+    border-radius: 1.8em;
+    border-style: solid;
+    padding: 10px;
+    color: rgb(12,104,191);
+    font-family: Nunito;
+    cursor: pointer;
+}
+
+.Join:hover {
+    background-color: rgb(12,104,191);
+    color: white;
+}
+
+.features button {
+    background-color: rgb(12,104,191);
+    border-color: white;
+    border-radius: 1.8em;
+    border-style: solid;
+    padding: 10px;
+    color: white;
+    font-family: Nunito;
+    cursor: pointer;
+}
+
+.features button:hover {
+    background-color: white;
+    color: rgb(12,104,191);
 }
